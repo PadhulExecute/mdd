@@ -14,7 +14,7 @@ module.exports = {
 		let anu = groups.map((v) => v.id);
 		for (let i of anu) {
 			await require("delay")(3000);
-			await conn.sendMessage(i, { text: q + "\n\n*Broadcast Message*" });
+			await conn.sendMessage(i, { text: q + "\n\n*!!!!!*" });
 		}
 		await msg.reply("Sukses");
 	},
